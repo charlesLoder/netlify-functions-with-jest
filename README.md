@@ -6,7 +6,7 @@ This is a repo for testing Netlify TypeScript functions locally with Jest.
 
 Run
 
-```bash
+```
 npm install
 ```
 
@@ -24,7 +24,7 @@ Or you can install the necessary dependencies just for testing and ingnore the r
 
 ### Necessary
 
-```bash
+```
 npm i -D netlify-cli @netlify/functions typescript jest @types/jest lambda-tester @types/lambda-tester ts-jest
 ```
 
@@ -32,13 +32,19 @@ npm i -D netlify-cli @netlify/functions typescript jest @types/jest lambda-teste
 
 These are just for mock easy api calls.
 
-``bash
+```
 npm i node-fetch @types/node-fetch
+```
 
+## Run
+
+To start up Netlify CLI, run
+
+```
+npm run start
 ```
 
 ## Resources
 
 - https://www.jeffreyknox.dev/blog/jest-tests-for-netlify-functions/
 - https://answers.netlify.com/t/testing-lambda-functions/6263
-```
